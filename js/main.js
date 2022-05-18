@@ -8,6 +8,5 @@ const inputSurname = prompt("Inserisci il tuo cognome")
 const inputColor = prompt("Inserisci il tuo colore preferito")
 const outputJS = document.getElementById("outputHTML")
 outputJS.innerHTML = `<strong>
-                    ${inputName} ${inputSurname} ${inputColor}
-                    22
+                    ${inputName}${inputSurname}${inputColor}22
                     </strong>`
